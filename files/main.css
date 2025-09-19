@@ -12453,6 +12453,10 @@ body.tp-magic-cursor #magic-cursor {
   .bd-brand-item {
     margin-bottom: 20px;
   }
+	.tp-header-logo img {
+  	width: 60px;
+  	height: 100%;
+	}
 }
 .bd-brand-item img {
   width: 100%;
