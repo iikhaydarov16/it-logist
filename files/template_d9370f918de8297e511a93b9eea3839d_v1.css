@@ -1,0 +1,155 @@
+
+
+/* Start:/local/templates/prolaba/styles.css?1735062966348*/
+.exchange-and-refund-container .content-block {
+    padding: 0;
+}
+
+.exchange-and-refund-container .content-block .exchange-content-block__title {
+    display: flex;
+    gap: 1rem;
+}
+
+.exchange-and-refund-container .content-block .exchange-and-refund-qustions .exchange-and-refund-qustions-title {
+    display: flex;
+    gap: 1rem;
+}
+
+
+/* End */
+
+
+/* Start:/local/templates/prolaba/template_styles.css?17366004242478*/
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(41, 41, 41, 0.06);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(41, 41, 41, 0.12);
+    border-radius: 15px;
+}
+
+::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+
+body {
+    overscroll-behavior: contain;
+}
+
+
+.bx-cstm-loader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: #fff;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    transition: 0.4s opacity;
+}
+
+body.loaded-now .product-card {
+    opacity: 0;
+}
+
+.bx-cstm-loader.animated {
+    opacity: 0.7;
+}
+
+.loader {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: radial-gradient(farthest-side, rgba(0, 85, 254, 1) 94%, #0000) top/4px 4px no-repeat,
+    conic-gradient(#0000 30%, rgba(0, 85, 254, 1));
+    -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 4px), #000 0);
+    animation: spinner-ub 0.8s infinite linear;
+}
+
+@keyframes spinner-ub {
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
+
+.loader-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.accordion-content-buttons{
+    display: flex;
+    gap: 12px;
+    margin-top: 28px;
+}
+
+.faq-section--page{
+    padding-top: 90px;
+}
+.faq-section--page .faq-section-container__content{
+    padding-top: 0;
+}
+
+@media(max-width: 640px){
+    .accordion-content-buttons{
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 23px;
+    }
+    .accordion-content-buttons a,
+    .accordion-content-buttons button{
+        width: 100%;
+        text-align: center;
+    }
+    .faq-section--page{
+        padding-top: 2rem;
+    }
+}
+
+.container--short{
+    max-width: 47.875rem;
+    margin: 0 auto;
+}
+
+.tp-theme-settings-area{
+    display: none !important;
+}
+
+.liko-dark-active .tp-project-5-2-area .tp-project-5-2-title{
+    color: rgba(245, 247, 245, 0.0784313725);
+}
+
+/*.tp_img_reveal img{*/
+/*    filter: brightness(0.6);*/
+/*}*/
+
+.tp-brand-item img{
+    max-width: 30%;
+    max-height: 30%;
+}
+
+.liko-dark-active .tp-brand-item img {
+    filter: grayscale(1) !important;
+}
+
+.tp-mission-right-thumb{
+    width: 400px;
+    max-width: 100%;
+}
+
+.tp-service-4-icon img{
+    filter: invert(1);
+}
+/* End */
+/* /local/templates/prolaba/styles.css?1735062966348 */
+/* /local/templates/prolaba/template_styles.css?17366004242478 */
