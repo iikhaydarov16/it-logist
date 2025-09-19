@@ -11985,7 +11985,9 @@ body.tp-magic-cursor #magic-cursor {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: -1;
+  z-index: -1; 
+  height: 100%;
+  object-fit: cover;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-hero-5-space {
