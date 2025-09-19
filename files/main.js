@@ -3068,10 +3068,10 @@
 				}
 			})
 				.to('.tp-hero-5-title ', {
-					x: '-10%'
+					x: '5%'
 				});
 			gsap.set('.tp-hero-5-title', {
-				x: '18%'
+				x: '2%'
 			});
 
 		}
@@ -3689,4 +3689,5 @@ $(".anim-zoomin").each(function() {
 
 
 })(jQuery);
+
 
