@@ -3053,7 +3053,7 @@
 
 
 	let ht = gsap.matchMedia();
-	ht.add("(min-width: 576px)", () => {
+	ht.add("(min-width: 375px)", () => {
 
 		/* portfolio animation start */
 		if ($('.tp-hero-5-area').length > 0) {
@@ -3689,5 +3689,6 @@ $(".anim-zoomin").each(function() {
 
 
 })(jQuery);
+
 
 
