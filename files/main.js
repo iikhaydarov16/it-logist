@@ -3067,13 +3067,6 @@
 					invalidateOnRefresh: true
 				}
 			})
-				.to('.tp-hero-5-title ', {
-					x: '5%'
-				});
-			gsap.set('.tp-hero-5-title', {
-				x: '2%'
-			});
-
 		}
 
 	});
@@ -3689,6 +3682,7 @@ $(".anim-zoomin").each(function() {
 
 
 })(jQuery);
+
 
 
 
