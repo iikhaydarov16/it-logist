@@ -3071,7 +3071,7 @@
 					x: '0'
 				});
 			gsap.set('.tp-hero-5-title', {
-				x: '0'
+				x: '5%'
 			});
 		}
 
@@ -3688,6 +3688,7 @@ $(".anim-zoomin").each(function() {
 
 
 })(jQuery);
+
 
 
 
